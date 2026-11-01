@@ -1,425 +1,248 @@
 [[AMGX_MPI]]
 arch = "x86_64"
 cuda = "12.0"
-git-tree-sha1 = "42250308863e7d9d7125053141675af3d7e72483"
+git-tree-sha1 = "a13e76a776efb1daff4c1fbec5458e78add9a4de"
 lazy = true
 libc = "glibc"
-mpi = "mpitrampoline"
+mpi = "mpiabi"
 os = "linux"
 
     [[AMGX_MPI.download]]
-    sha256 = "9e43a821ec03d7a10af8046787a33f81b44133696df1be3869918cd0b31adadd"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.x86_64-linux-gnu-mpi+mpitrampoline-cuda+12.0.tar.gz"
+    sha256 = "5a22948968fa12b0391b058545eb22ee16dbb24349dfd9500f9feb33a229b601"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.x86_64-linux-gnu-cuda+12.0-mpi+mpiabi.tar.gz"
 [[AMGX_MPI]]
 arch = "aarch64"
 cuda = "12.0"
 cuda_platform = "jetson"
-git-tree-sha1 = "6ef3f4e47c45e3e5ba7820c73681f211cc2cc1ba"
+git-tree-sha1 = "04b4d3b2313850d07871499671ce7e196d1b4486"
 lazy = true
 libc = "glibc"
-mpi = "mpitrampoline"
+mpi = "mpiabi"
 os = "linux"
 
     [[AMGX_MPI.download]]
-    sha256 = "a827fd6c929d3f62188673133713f0300c41f32e5c61653f418e9a06b644142c"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+jetson-cuda+12.0.tar.gz"
+    sha256 = "235bb77c373d010d13d41dd339c85670bf5363042ea64fd0f72fa1e9a2989632"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+mpiabi.tar.gz"
 [[AMGX_MPI]]
 arch = "aarch64"
 cuda = "12.0"
 cuda_platform = "sbsa"
-git-tree-sha1 = "ee52e177ff8632b197174140bbca178a3650d123"
+git-tree-sha1 = "9bf0d6dc4f4d340737e1d2793c8ae8869f98f581"
 lazy = true
 libc = "glibc"
-mpi = "mpitrampoline"
+mpi = "mpiabi"
 os = "linux"
 
     [[AMGX_MPI.download]]
-    sha256 = "89456ffe1a85488fe4633d98270b745d4349097ffc8b5a21aa4587497edfbd2d"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+sbsa-cuda+12.0.tar.gz"
-[[AMGX_MPI]]
-arch = "x86_64"
-cuda = "12.1"
-git-tree-sha1 = "771ddd8734cad531590502c3f9e535e9063bb8d5"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "8169449ec7d8b6466726501da2885f0b9c630b0c45e700f1d6e52fc49ede1c43"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.x86_64-linux-gnu-mpi+mpitrampoline-cuda+12.1.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.1"
-cuda_platform = "jetson"
-git-tree-sha1 = "224aafb50f0e7db3595e671a0bf3338a195b16de"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "5dbb9d8b4b560f59983c108c7eb3f00ca4284e72c4f5e2ebca0e4c87d865858c"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+jetson-cuda+12.1.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.1"
-cuda_platform = "sbsa"
-git-tree-sha1 = "d9026fa95db754c6ed7e26e10db903cf2cdf615f"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "232857513f484462ef0a8747fd4a29007621d1dd36eda7d84f37b6e2b0c4ee86"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+sbsa-cuda+12.1.tar.gz"
-[[AMGX_MPI]]
-arch = "x86_64"
-cuda = "12.2"
-git-tree-sha1 = "2b8e1e1f7336d2974fffb8cbd900b76b69d7741e"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "7af45124791a232395faa888d0007fd7bc608119cae5457f6602c427345ee735"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.x86_64-linux-gnu-mpi+mpitrampoline-cuda+12.2.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.2"
-cuda_platform = "jetson"
-git-tree-sha1 = "55587cfebc140554b7ddc58ca56e72e395130b03"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "7abb727ebd723f4025de8d4d70bec5aee271f5aefb7d3d2f2cfcb86a5a8971e6"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+jetson-cuda+12.2.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.2"
-cuda_platform = "sbsa"
-git-tree-sha1 = "663cd98882cf7274969e397906805347a998cdc2"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "efde9e3ba1008de02f5ae008188033be1684641eb613241ebdfe317e747ab77b"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+sbsa-cuda+12.2.tar.gz"
-[[AMGX_MPI]]
-arch = "x86_64"
-cuda = "12.3"
-git-tree-sha1 = "6cb7fda24beefc3dd67830d0d7243b99944c9f36"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "99b3652867dfadf1212e0ee87f52b40c44b8dcc4c5ce36d18fa21b6fa3971851"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.x86_64-linux-gnu-mpi+mpitrampoline-cuda+12.3.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.3"
-cuda_platform = "sbsa"
-git-tree-sha1 = "0603527179ad4b2e080ad60658c95d415ad84ad3"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "3e44f2a440d84f286c33f0ef0645591f6cf6866685c108ba94dd653b80221bf2"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+sbsa-cuda+12.3.tar.gz"
-[[AMGX_MPI]]
-arch = "x86_64"
-cuda = "12.4"
-git-tree-sha1 = "0d3ac00f6248a5a50b8dd3384d96a2e71644e196"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "f043815f160932304d1321974e16773d8d57a5c22113565293ea7cb7005a8923"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.x86_64-linux-gnu-mpi+mpitrampoline-cuda+12.4.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.4"
-cuda_platform = "jetson"
-git-tree-sha1 = "55d87c31296175531d740094f864ea672f33c88f"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "cfd7acba3f34beb6e601780fa400e6abf338d8922412eb7bc1a6241901aed307"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+jetson-cuda+12.4.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.4"
-cuda_platform = "sbsa"
-git-tree-sha1 = "77e624dac98e760165c1edb9678e1820a5e52fd2"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "c7242e1788477c479e5fee20ba083fc8797f753703d47a5adf00f1a33af74772"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+sbsa-cuda+12.4.tar.gz"
-[[AMGX_MPI]]
-arch = "x86_64"
-cuda = "12.5"
-git-tree-sha1 = "2121f3e52c2d706aa3daae22e3ca9342d0175009"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "9ae413dba089007ae5090c1d87ea31a93a46cc5a9206738a91d247c6d42989a3"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.x86_64-linux-gnu-mpi+mpitrampoline-cuda+12.5.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.5"
-cuda_platform = "jetson"
-git-tree-sha1 = "17b37896d23444bd0a0d73e2e009828b76ad954f"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "2ab2f0c8f05b2b01fceb8bbdca16c1beb504cbf53c8bb02b18396818302b7591"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+jetson-cuda+12.5.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.5"
-cuda_platform = "sbsa"
-git-tree-sha1 = "0b420c2b6695132422d018ce5e0de6e66cba2fa8"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "c8cd392244d384a856293f964363a0299db9b819dca6bfe60b4763c552c432fb"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+sbsa-cuda+12.5.tar.gz"
-[[AMGX_MPI]]
-arch = "x86_64"
-cuda = "12.6"
-git-tree-sha1 = "190ffd060887481534807208767a2a3c0ed4ddbd"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "e7a673e68e1b0711feb72ea4a40dba999925abc492c903ae34910e52d488a0a6"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.x86_64-linux-gnu-mpi+mpitrampoline-cuda+12.6.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.6"
-cuda_platform = "jetson"
-git-tree-sha1 = "8eaa94a76dd2d8c3cc007593e48a5958f2990e3a"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "3a17ec9e4ac2650289efa0aa984df1ce1d2cbb6bb431aa08fe5aabe9faad28bb"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+jetson-cuda+12.6.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.6"
-cuda_platform = "sbsa"
-git-tree-sha1 = "c148da2c7f33f89b68d339f51f23de0eb06b46a9"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "02dfdc9d2253ea4296201646353f8026b39ef2dd5b42c7fdd84ad659200cb819"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+sbsa-cuda+12.6.tar.gz"
-[[AMGX_MPI]]
-arch = "x86_64"
-cuda = "12.8"
-git-tree-sha1 = "d3e521cd47df8989f955d3a681604a5be0e064ab"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "9aed9835587594b57d01a8ca5a7989397571c2a798d0914fd9cbd46f28256226"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.x86_64-linux-gnu-mpi+mpitrampoline-cuda+12.8.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.8"
-cuda_platform = "jetson"
-git-tree-sha1 = "1702af2d240a17aa77614cedcc30af358b70e854"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "58508476fb345edad35dfa557e4119cfb3bc766b7705646a4984c478f98f2fd6"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+jetson-cuda+12.8.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.8"
-cuda_platform = "sbsa"
-git-tree-sha1 = "40de3155a0cdce98af3d626590fbc43119e881e6"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "3a8fbfd7d148fd9877bb82f4157cbc76005b805ec82ed7c328543338b4ad3ccf"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+sbsa-cuda+12.8.tar.gz"
-[[AMGX_MPI]]
-arch = "x86_64"
-cuda = "12.9"
-git-tree-sha1 = "1f40cb0ca84b3807fafb1640a6482528c9929479"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "d66d5300a90831297861d658bc2381d3438eb5769bfb40fc9634a71fe251fef7"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.x86_64-linux-gnu-mpi+mpitrampoline-cuda+12.9.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.9"
-cuda_platform = "jetson"
-git-tree-sha1 = "198b401e4d9c51af59acdac6118dd0be01a6bad6"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "75fe7f1464b3722d48b28c9b132047c25e5b0d5000d6659a9d42586c0715d9e6"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+jetson-cuda+12.9.tar.gz"
-[[AMGX_MPI]]
-arch = "aarch64"
-cuda = "12.9"
-cuda_platform = "sbsa"
-git-tree-sha1 = "f9eb17622ddcafd826ca8d85aa70a212228d7fdc"
-lazy = true
-libc = "glibc"
-mpi = "mpitrampoline"
-os = "linux"
-
-    [[AMGX_MPI.download]]
-    sha256 = "d6eebd0685cc9236c4cad050f680ca639cbe6c471b2538c74beb98be5a5ab584"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda_platform+sbsa-cuda+12.9.tar.gz"
+    sha256 = "963e8937f1ef078eb8a9e03289592a999e1a99f99db1a806adc6cb90b741c176"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+mpiabi.tar.gz"
 [[AMGX_MPI]]
 arch = "x86_64"
 cuda = "13.0"
-git-tree-sha1 = "8c7c6d5e9c3cdd9b5266254915ac0d42caf4ca4f"
+git-tree-sha1 = "5dbebcfee03b651a06a5c7ae41c534b21bc881d1"
 lazy = true
 libc = "glibc"
-mpi = "mpitrampoline"
+mpi = "mpiabi"
 os = "linux"
 
     [[AMGX_MPI.download]]
-    sha256 = "4ce5ecec81fb940ce948cbe14aeea725427e25480c1493fb6c982e1fd1728d8d"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.x86_64-linux-gnu-mpi+mpitrampoline-cuda+13.0.tar.gz"
+    sha256 = "83eb6642da87f37898e7702e16124129cac374fc7cce37a406ae2429b566069d"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.x86_64-linux-gnu-cuda+13.0-mpi+mpiabi.tar.gz"
 [[AMGX_MPI]]
 arch = "aarch64"
 cuda = "13.0"
-git-tree-sha1 = "1bda559ff514b20d9faa971739a16b58ffc312a2"
+git-tree-sha1 = "431ea32c478424ceaff6c6b8117fc64b6010cad1"
 lazy = true
 libc = "glibc"
-mpi = "mpitrampoline"
+mpi = "mpiabi"
 os = "linux"
 
     [[AMGX_MPI.download]]
-    sha256 = "9a33f420ef6316d8e464551ca40e41861cecec6584f3cb58a3cbe31d6724f65c"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda+13.0.tar.gz"
+    sha256 = "f813412ad27cc5d18b296991180872c6790994dc70281e44a6898d86ac5eb730"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.aarch64-linux-gnu-cuda+13.0-mpi+mpiabi.tar.gz"
 [[AMGX_MPI]]
 arch = "x86_64"
-cuda = "13.1"
-git-tree-sha1 = "9ed016249de5f35bdc42c2ab05230bb8e4bb5136"
+cuda = "12.0"
+git-tree-sha1 = "8a5ac5798055466f49266957be705bfdcfcf595f"
 lazy = true
 libc = "glibc"
-mpi = "mpitrampoline"
+mpi = "mpich"
 os = "linux"
 
     [[AMGX_MPI.download]]
-    sha256 = "9af9d1cd4560e41f82f2fc5452e2f7d433801674b6f6c52b5ba8ece7ced67961"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.x86_64-linux-gnu-mpi+mpitrampoline-cuda+13.1.tar.gz"
+    sha256 = "546458f9d736a9bd4b2cd4180ed99f36b5d64c77306f648031547a635fbbdd3e"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.x86_64-linux-gnu-cuda+12.0-mpi+mpich.tar.gz"
 [[AMGX_MPI]]
 arch = "aarch64"
-cuda = "13.1"
-git-tree-sha1 = "96814ea7b8b11585e7784f207e7131dc250686ef"
+cuda = "12.0"
+cuda_platform = "jetson"
+git-tree-sha1 = "3799c15aa8f48d7956364e1ba59cbbd0f286bd53"
 lazy = true
 libc = "glibc"
-mpi = "mpitrampoline"
+mpi = "mpich"
 os = "linux"
 
     [[AMGX_MPI.download]]
-    sha256 = "6577dc1876f2921a761d7b7ded92c1cacf29504cb13587ddbaa8be14b9fd0608"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda+13.1.tar.gz"
+    sha256 = "7848cdac24e76f96746b271c39def872b40f5c533a6948b6be19c3d69b282d7b"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+mpich.tar.gz"
+[[AMGX_MPI]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "sbsa"
+git-tree-sha1 = "8eff4d8140675726fe7d1582237fc69ad46a25e9"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[AMGX_MPI.download]]
+    sha256 = "075fee3872af95a4c5d0dfcc9e4db9d7465f2c1be688214d8f66a064916bac13"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+mpich.tar.gz"
 [[AMGX_MPI]]
 arch = "x86_64"
-cuda = "13.2"
-git-tree-sha1 = "ccf1657307d4308562baf972bf9f9c5e91691a42"
+cuda = "13.0"
+git-tree-sha1 = "e657ac55b74f50bbc692bd418026df22c7e2b94c"
 lazy = true
 libc = "glibc"
-mpi = "mpitrampoline"
+mpi = "mpich"
 os = "linux"
 
     [[AMGX_MPI.download]]
-    sha256 = "84cd10f6abe62b3b281e9b319c03079b2623ead0ad7cdcb20fb7c128529a76ad"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.x86_64-linux-gnu-mpi+mpitrampoline-cuda+13.2.tar.gz"
+    sha256 = "faa9448a29703a1259fb398a498209867e4fae2fe7dd6f582365a8ad859692c3"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.x86_64-linux-gnu-cuda+13.0-mpi+mpich.tar.gz"
 [[AMGX_MPI]]
 arch = "aarch64"
-cuda = "13.2"
-git-tree-sha1 = "86d689d2398abff5d7d69e58b8119259500269fe"
+cuda = "13.0"
+git-tree-sha1 = "8a6db6aa72f05e0b7669ffceb5196a5ab48bf1f7"
 lazy = true
 libc = "glibc"
-mpi = "mpitrampoline"
+mpi = "mpich"
 os = "linux"
 
     [[AMGX_MPI.download]]
-    sha256 = "6674c048b5e8156dd7b575e648e2e4c05f300f1dfc4a6bbb0bf0d8bfeb65a126"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda+13.2.tar.gz"
+    sha256 = "78aae9f7fdd4a7312d8dff415f8e31b5cc12b2e7b7d2d879c2d16a5cb3b56cd9"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.aarch64-linux-gnu-cuda+13.0-mpi+mpich.tar.gz"
 [[AMGX_MPI]]
 arch = "x86_64"
-cuda = "13.3"
-git-tree-sha1 = "698b00481abb8ba5a65fc382bcf3916c531c45a5"
+cuda = "12.0"
+git-tree-sha1 = "57e4ab45129954bfdae23622a7dfdc9670a62305"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[AMGX_MPI.download]]
-    sha256 = "a24ec0320d837d612bd1cc45a7d6c7e1bf7128af2c5a6b255d574e0b5f88bfb6"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.x86_64-linux-gnu-mpi+mpitrampoline-cuda+13.3.tar.gz"
+    sha256 = "f537d04286a42fe4c3339ec4a7839172521b97599bc869a6a6d23ac51d2058f0"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.x86_64-linux-gnu-cuda+12.0-mpi+mpitrampoline.tar.gz"
 [[AMGX_MPI]]
 arch = "aarch64"
-cuda = "13.3"
-git-tree-sha1 = "a66040f7e27071f133d30f0f7ab71b15f2ffa0f8"
+cuda = "12.0"
+cuda_platform = "jetson"
+git-tree-sha1 = "74dd9db75329dc3c2fec1259c4261e4cb71ac758"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[AMGX_MPI.download]]
-    sha256 = "e6a4d6d8828a1fe603b3a18bf05dc84b3194840db36116efab8ee9343f8b3860"
-    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.0+0/AMGX_MPI.v2.5.0.aarch64-linux-gnu-mpi+mpitrampoline-cuda+13.3.tar.gz"
+    sha256 = "955e0a7210d58184811d12064543f14551e41c3813de8102aacff8d16aa9209d"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+mpitrampoline.tar.gz"
+[[AMGX_MPI]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "sbsa"
+git-tree-sha1 = "d12d53b81c5b62d9796d3d53a606917f023d5ac7"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[AMGX_MPI.download]]
+    sha256 = "ea34e461e8230c3f1982891ee3fc73bedce00c0fbdd33796430ec70af01f9ee8"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+mpitrampoline.tar.gz"
+[[AMGX_MPI]]
+arch = "x86_64"
+cuda = "13.0"
+git-tree-sha1 = "a2af1c03e6d8537ae030fbfa5178f16804244ae4"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[AMGX_MPI.download]]
+    sha256 = "ac5aac6afe386f9b6d514f4bc3a2ae2b1f784b6595512d29cbdc79decdd4a8ea"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.x86_64-linux-gnu-cuda+13.0-mpi+mpitrampoline.tar.gz"
+[[AMGX_MPI]]
+arch = "aarch64"
+cuda = "13.0"
+git-tree-sha1 = "0fcbd922a61b2d6f280fad944492cef399a37c78"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[AMGX_MPI.download]]
+    sha256 = "2632bc7e888a5d9694a7c3a1a3daa5bf7ca2234560622567ef2f922ee66e59f5"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.aarch64-linux-gnu-cuda+13.0-mpi+mpitrampoline.tar.gz"
+[[AMGX_MPI]]
+arch = "x86_64"
+cuda = "12.0"
+git-tree-sha1 = "d15975a24395b25c584af6d45c4ea908fad66cb6"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[AMGX_MPI.download]]
+    sha256 = "d95a970a8873a547a13f2b1acc8d9ecde83671665a10259d30543008f7803b02"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.x86_64-linux-gnu-cuda+12.0-mpi+openmpi.tar.gz"
+[[AMGX_MPI]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "jetson"
+git-tree-sha1 = "b72f82f339d2b0d0f86b20e5c74dd390a40173fd"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[AMGX_MPI.download]]
+    sha256 = "39927240684a281f220c05f0e3e5537857abc1103fef57fb484ac9ff73d19030"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+openmpi.tar.gz"
+[[AMGX_MPI]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "sbsa"
+git-tree-sha1 = "45e70c5299c780d8ea471ff14d0a55bab9574a0c"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[AMGX_MPI.download]]
+    sha256 = "a986079f7e1fd5699ed46b003fbd124423c494721bb05cfee07c39f4bacdd3d7"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+openmpi.tar.gz"
+[[AMGX_MPI]]
+arch = "x86_64"
+cuda = "13.0"
+git-tree-sha1 = "762d9e08d450021bf64d60944ee5e7f838d7f4a5"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[AMGX_MPI.download]]
+    sha256 = "af3b5e2de26da4cd62caa050c799ef77f8657bf3c52c9d0cee55044c33d3bfe7"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.x86_64-linux-gnu-cuda+13.0-mpi+openmpi.tar.gz"
+[[AMGX_MPI]]
+arch = "aarch64"
+cuda = "13.0"
+git-tree-sha1 = "07b6efca710e5dc6f6f2f6a38658bea8a9bf9ffb"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[AMGX_MPI.download]]
+    sha256 = "b4b20be1551c55387ef92341615035ee1b7eb978c0b3cf79047d13da9164d682"
+    url = "https://github.com/JuliaBinaryWrappers/AMGX_MPI_jll.jl/releases/download/AMGX_MPI-v2.5.1+0/AMGX_MPI.v2.5.1.aarch64-linux-gnu-cuda+13.0-mpi+openmpi.tar.gz"
